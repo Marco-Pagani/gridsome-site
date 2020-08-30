@@ -5,6 +5,8 @@
 // To restart press CTRL + C in terminal and run `gridsome develop`
 
 module.exports = {
-  siteName: 'Paganio',
+  siteName: 'Marco Pagani',
+  titleTemplate: '%s | <siteName>',
+  icon: './src/assets/images/bold.png',
   plugins: []
 }
