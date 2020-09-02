@@ -1,6 +1,6 @@
 <template>
   <nav
-    class="navbar is-spaced"
+    class="navbar is-spaced is-primary"
     id="coloredNav"
     role="navigation"
     aria-label="main navigation"
@@ -38,14 +38,12 @@
         <g-link class="navbar-item" to="/about">About</g-link>
 
         <div class="navbar-item">
-          <div class="buttons">
-            <a
-              class="button is-warning"
-              href="mailto:marco.pagani109@gmail.com"
-            >
-              <strong>Contact Me!</strong>
-            </a>
-          </div>
+          <a
+            class="button is-primary is-inverted is-outlined"
+            href="mailto:marco.pagani109@gmail.com"
+          >
+            <strong>Contact Me!</strong>
+          </a>
         </div>
       </div>
     </div>
@@ -65,7 +63,9 @@ export default {
 <style scoped>
 #logo {
   padding: 0%;
-  max-height: 3rem;
-  max-width: 3rem;
+  max-height: 3.25rem;
+  max-width: 3.25rem;
+  padding: 1px;
+  border: 2px solid #021a40;
 }
 </style>

@@ -2,23 +2,23 @@
   <footer class="footer has-background-dark has-pattern">
     <div class="container has-text-centered has-text-grey-lighter">
       <div class="buttons is-centered">
-        <a class="button is-primary is-medium" href="mailto:marco@pagani.io">
+        <a class="button is-primary is-rounded" href="mailto:marco@pagani.io">
           <font-awesome class="icon" :icon="['far', 'envelope']" />
         </a>
         <a
-          class="button is-primary is-medium"
+          class="button is-primary is-rounded"
           href="https://www.linkedin.com/in/marco-pagani/"
         >
           <font-awesome class="icon" :icon="['fab', 'linkedin']" />
         </a>
         <a
-          class="button is-primary is-medium"
+          class="button is-primary is-rounded"
           href="https://github.com/Marco-Pagani"
         >
           <font-awesome class="icon" :icon="['fab', 'github']" />
         </a>
         <a
-          class="button is-primary is-medium"
+          class="button is-primary is-rounded"
           href="https://www.instagram.com/paganorama/?hl=en"
         >
           <font-awesome class="icon" :icon="['fab', 'instagram']" />

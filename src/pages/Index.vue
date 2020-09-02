@@ -1,46 +1,44 @@
 <template>
   <Layout>
-    <section class="section">
-      <!-- Learn how to use images here: https://gridsome.org/docs/images -->
-      <g-image
-        alt="Example image"
-        src="~/assets/images/favicon.png"
-        width="135"
-      />
-
-      <h1 class="title is-2">Hello, world!</h1>
-
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur
-        excepturi labore tempore expedita, et iste tenetur suscipit explicabo!
-        Dolores, aperiam non officia eos quod asperiores
-      </p>
-
-      <p class="home-links">
-        <a href="https://gridsome.org/docs/" target="_blank" rel="noopener"
-          >Gridsome Docs</a
-        >
-        <a
-          href="https://github.com/gridsome/gridsome"
-          target="_blank"
-          rel="noopener"
-          >GitHub</a
-        >
-      </p>
+    <Hero />
+    <section class="section is-narrow">
+      <div class="container">
+        <div class="columns">
+          <div class="column is-half">
+            <h2 class="title is-3">Here's the basics</h2>
+            <p class="is-size-5">
+              I'm a software developer based in Miami, Florida with a creative
+              eye and a passion for programming. I know that software
+              development is more about solving problems than writing code (but
+              I'm pretty good at that too). I know how to work with my team to
+              create solutions for our users.
+            </p>
+          </div>
+          <div class="column is-half">
+            <figure class="image is-128x128">
+              <img src="https://bulma.io/images/placeholders/128x128.png" />
+            </figure>
+          </div>
+        </div>
+      </div>
     </section>
   </Layout>
 </template>
 
 <script>
+import Hero from "~/components/Hero.vue";
 export default {
+  components: {
+    Hero,
+  },
   metaInfo: {
-    title: "Hello, world!",
+    title: "Marco Pagani",
   },
 };
 </script>
 
 <style>
-.home-links a {
-  margin-right: 1rem;
+.container {
+  max-width: 1200px;
 }
 </style>

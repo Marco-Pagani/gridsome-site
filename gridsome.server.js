@@ -8,6 +8,15 @@
 module.exports = function (api) {
   api.loadSource(({ addCollection }) => {
     // Use the Data Store API here: https://gridsome.org/docs/data-store-api/
+    const Projects = require('@/data/projects.json')
+
+    const collection = addCollection({
+      typeName: 'Projects'
+    })
+
+    for (const project of Projects) {
+      collection.addNode(project)
+    }
   })
 
   api.createPages(({ createPage }) => {
