@@ -10,7 +10,7 @@
         <g-image
           id="logo-img"
           alt="Marco Pagani logo"
-          src="~/assets/images/bold.png"
+          src="~/assets/images/logo/logo_square250.png"
         />
       </g-link>
 

@@ -41,6 +41,6 @@
 
 <style scoped>
 .has-pattern {
-  background: #363636 url("~@/assets/images/prism.png");
+  background: #363636 url("~@/assets/images/misc/prism.png");
 }
 </style>
